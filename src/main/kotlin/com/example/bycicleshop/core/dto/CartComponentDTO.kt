@@ -5,6 +5,6 @@ import com.example.bycicleshop.order.model.Order
 
 data class CartComponentDTO (
     val id: Long = 0,
-    val order: Order,
-    val component: Component
+    val order: OrderDTO,
+    val component: ComponentDTO
 )

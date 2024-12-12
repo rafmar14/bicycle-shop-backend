@@ -6,7 +6,7 @@ import com.example.bycicleshop.customer.model.Customer
 
 data class OrderDTO (
     val id: Long = 0,
-    val customer: Customer,
-    val components: List<Component>,
-    val combinations: List<Combination>,
+    val customer: CustomerDTO,
+    val components: List<ComponentDTO>,
+    val combinations: List<CombinationDTO>,
     )

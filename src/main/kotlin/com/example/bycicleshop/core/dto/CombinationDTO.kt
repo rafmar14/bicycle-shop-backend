@@ -6,8 +6,8 @@ import java.math.BigDecimal
 
 data class CombinationDTO (
     val id: Long = 0,
-    val compA: Component,
-    val compB: Component,
+    val compA: ComponentDTO,
+    val compB: ComponentDTO,
     val compatible: Boolean,
     val priceAdjustment: BigDecimal
 )
