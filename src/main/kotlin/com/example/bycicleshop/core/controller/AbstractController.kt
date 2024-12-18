@@ -1,7 +1,7 @@
-package com.example.bycicleshop.core.controller
+package com.example.bicycleshop.core.controller
 
-import com.example.bycicleshop.core.exception.ControllerException
-import com.example.bycicleshop.core.service.AbstractJpaService
+import com.example.bicycleshop.core.exception.ControllerException
+import com.example.bicycleshop.core.service.AbstractJpaService
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
 

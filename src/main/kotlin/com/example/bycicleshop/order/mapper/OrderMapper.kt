@@ -1,11 +1,11 @@
-package com.example.bycicleshop.order.mapper
+package com.example.bicycleshop.order.mapper
 
-import com.example.bycicleshop.combination.mapper.CombinationMapper
-import com.example.bycicleshop.component.mapper.ComponentMapper
-import com.example.bycicleshop.core.mapper.DomainMapper
-import com.example.bycicleshop.core.dto.OrderDTO
-import com.example.bycicleshop.customer.mapper.CustomerMapper
-import com.example.bycicleshop.order.model.Order
+import com.example.bicycleshop.combination.mapper.CombinationMapper
+import com.example.bicycleshop.component.mapper.ComponentMapper
+import com.example.bicycleshop.core.mapper.DomainMapper
+import com.example.bicycleshop.core.dto.OrderDTO
+import com.example.bicycleshop.customer.mapper.CustomerMapper
+import com.example.bicycleshop.order.model.Order
 import org.springframework.stereotype.Component
 
 @Component

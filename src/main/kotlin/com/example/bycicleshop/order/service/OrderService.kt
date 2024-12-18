@@ -1,10 +1,10 @@
-package com.example.bycicleshop.order.service
+package com.example.bicycleshop.order.service
 
-import com.example.bycicleshop.order.repository.OrderRepository
-import com.example.bycicleshop.core.dto.OrderDTO
-import com.example.bycicleshop.core.service.AbstractJpaService
-import com.example.bycicleshop.order.mapper.OrderMapper
-import com.example.bycicleshop.order.model.Order
+import com.example.bicycleshop.order.repository.OrderRepository
+import com.example.bicycleshop.core.dto.OrderDTO
+import com.example.bicycleshop.core.service.AbstractJpaService
+import com.example.bicycleshop.order.mapper.OrderMapper
+import com.example.bicycleshop.order.model.Order
 import org.springframework.stereotype.Service
 
 @Service

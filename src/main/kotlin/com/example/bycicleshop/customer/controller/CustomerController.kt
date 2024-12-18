@@ -1,9 +1,9 @@
-package com.example.bycicleshop.customer.controller
+package com.example.bicycleshop.customer.controller
 
-import com.example.bycicleshop.core.controller.AbstractController
-import com.example.bycicleshop.core.dto.CustomerDTO
-import com.example.bycicleshop.customer.model.Customer
-import com.example.bycicleshop.customer.service.CustomerService
+import com.example.bicycleshop.core.controller.AbstractController
+import com.example.bicycleshop.core.dto.CustomerDTO
+import com.example.bicycleshop.customer.model.Customer
+import com.example.bicycleshop.customer.service.CustomerService
 import org.springframework.web.bind.annotation.*
 
 @RestController

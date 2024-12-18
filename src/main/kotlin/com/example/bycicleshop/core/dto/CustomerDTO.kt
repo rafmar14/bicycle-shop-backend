@@ -1,4 +1,4 @@
-package com.example.bycicleshop.core.dto
+package com.example.bicycleshop.core.dto
 
 data class CustomerDTO (
     val id: Long = 0,

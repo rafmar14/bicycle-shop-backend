@@ -1,4 +1,4 @@
-package com.example.bycicleshop.component.model
+package com.example.bicycleshop.component.model
 
 import jakarta.persistence.*
 import java.math.BigDecimal

@@ -1,9 +1,9 @@
-package com.example.bycicleshop.cart.cartcomponent.controller
+package com.example.bicycleshop.cart.cartcomponent.controller
 
-import com.example.bycicleshop.cart.cartcomponent.model.CartComponent
-import com.example.bycicleshop.cart.cartcomponent.service.CartComponentService
-import com.example.bycicleshop.core.dto.CartComponentDTO
-import com.example.bycicleshop.core.controller.AbstractController
+import com.example.bicycleshop.cart.cartcomponent.model.CartComponent
+import com.example.bicycleshop.cart.cartcomponent.service.CartComponentService
+import com.example.bicycleshop.core.dto.CartComponentDTO
+import com.example.bicycleshop.core.controller.AbstractController
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 

@@ -1,9 +1,9 @@
-package com.example.bycicleshop.combination.mapper
+package com.example.bicycleshop.combination.mapper
 
-import com.example.bycicleshop.core.mapper.DomainMapper
-import com.example.bycicleshop.combination.model.Combination
-import com.example.bycicleshop.component.mapper.ComponentMapper
-import com.example.bycicleshop.core.dto.CombinationDTO
+import com.example.bicycleshop.core.mapper.DomainMapper
+import com.example.bicycleshop.combination.model.Combination
+import com.example.bicycleshop.component.mapper.ComponentMapper
+import com.example.bicycleshop.core.dto.CombinationDTO
 import org.springframework.stereotype.Component
 
 @Component

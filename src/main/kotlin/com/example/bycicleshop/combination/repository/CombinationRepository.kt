@@ -1,6 +1,6 @@
-package com.example.bycicleshop.combination.repository
+package com.example.bicycleshop.combination.repository
 
-import com.example.bycicleshop.combination.model.Combination
+import com.example.bicycleshop.combination.model.Combination
 import org.springframework.data.repository.CrudRepository
 
 interface CombinationRepository : CrudRepository<Combination, Long>

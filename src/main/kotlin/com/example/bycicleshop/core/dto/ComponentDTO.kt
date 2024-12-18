@@ -1,4 +1,4 @@
-package com.example.bycicleshop.core.dto
+package com.example.bicycleshop.core.dto
 
 import java.math.BigDecimal
 

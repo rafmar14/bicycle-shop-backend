@@ -1,4 +1,4 @@
-package com.example.bycicleshop.product.model
+package com.example.bicycleshop.product.model
 
 import jakarta.persistence.*
 

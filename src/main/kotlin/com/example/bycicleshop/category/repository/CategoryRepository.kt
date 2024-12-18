@@ -1,6 +1,6 @@
-package com.example.bycicleshop.category.repository
+package com.example.bicycleshop.category.repository
 
-import com.example.bycicleshop.category.model.Category
+import com.example.bicycleshop.category.model.Category
 import org.springframework.data.repository.CrudRepository
 
 interface CategoryRepository : CrudRepository<Category, Long>

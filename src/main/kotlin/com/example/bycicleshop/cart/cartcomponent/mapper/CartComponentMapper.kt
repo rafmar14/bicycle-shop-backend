@@ -1,11 +1,11 @@
-package com.example.bycicleshop.cart.cartcomponent.mapper
+package com.example.bicycleshop.cart.cartcomponent.mapper
 
-import com.example.bycicleshop.cart.cartcomponent.model.CartComponent
-import com.example.bycicleshop.combination.mapper.CombinationMapper
-import com.example.bycicleshop.component.mapper.ComponentMapper
-import com.example.bycicleshop.core.dto.CartComponentDTO
-import com.example.bycicleshop.core.mapper.DomainMapper
-import com.example.bycicleshop.order.mapper.OrderMapper
+import com.example.bicycleshop.cart.cartcomponent.model.CartComponent
+import com.example.bicycleshop.combination.mapper.CombinationMapper
+import com.example.bicycleshop.component.mapper.ComponentMapper
+import com.example.bicycleshop.core.dto.CartComponentDTO
+import com.example.bicycleshop.core.mapper.DomainMapper
+import com.example.bicycleshop.order.mapper.OrderMapper
 import org.springframework.stereotype.Component
 
 @Component

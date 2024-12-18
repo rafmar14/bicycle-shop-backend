@@ -1,6 +1,6 @@
-package com.example.bycicleshop.combination.model
+package com.example.bicycleshop.combination.model
 
-import com.example.bycicleshop.component.model.Component
+import com.example.bicycleshop.component.model.Component
 import jakarta.persistence.*
 import java.math.BigDecimal
 

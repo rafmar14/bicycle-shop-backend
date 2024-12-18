@@ -1,6 +1,6 @@
-package com.example.bycicleshop.cart.cartcomponent.repository
+package com.example.bicycleshop.cart.cartcomponent.repository
 
-import com.example.bycicleshop.cart.cartcomponent.model.CartComponent
+import com.example.bicycleshop.cart.cartcomponent.model.CartComponent
 import org.springframework.data.repository.CrudRepository
 
 interface CartComponentRepository : CrudRepository<CartComponent, Long>

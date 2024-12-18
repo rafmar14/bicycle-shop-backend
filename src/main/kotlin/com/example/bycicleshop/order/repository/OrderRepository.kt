@@ -1,6 +1,6 @@
-package com.example.bycicleshop.order.repository
+package com.example.bicycleshop.order.repository
 
-import com.example.bycicleshop.order.model.Order
+import com.example.bicycleshop.order.model.Order
 import org.springframework.data.repository.CrudRepository
 
 interface OrderRepository : CrudRepository<Order, Long>

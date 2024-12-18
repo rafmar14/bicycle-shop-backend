@@ -1,10 +1,10 @@
-package com.example.bycicleshop.category.service
+package com.example.bicycleshop.category.service
 
-import com.example.bycicleshop.core.dto.CategoryDTO
-import com.example.bycicleshop.category.mapper.CategoryMapper
-import com.example.bycicleshop.category.model.Category
-import com.example.bycicleshop.category.repository.CategoryRepository
-import com.example.bycicleshop.core.service.AbstractJpaService
+import com.example.bicycleshop.core.dto.CategoryDTO
+import com.example.bicycleshop.category.mapper.CategoryMapper
+import com.example.bicycleshop.category.model.Category
+import com.example.bicycleshop.category.repository.CategoryRepository
+import com.example.bicycleshop.core.service.AbstractJpaService
 import org.springframework.stereotype.Service
 
 @Service

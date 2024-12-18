@@ -1,12 +1,12 @@
-package com.example.bycicleshop.component.mapper
+package com.example.bicycleshop.component.mapper
 
-import com.example.bycicleshop.core.mapper.DomainMapper
-import com.example.bycicleshop.component.model.Component
-import com.example.bycicleshop.core.dto.ComponentDTO
+import com.example.bicycleshop.core.mapper.DomainMapper
+import com.example.bicycleshop.component.model.Component
+import com.example.bicycleshop.core.dto.ComponentDTO
 
 @org.springframework.stereotype.Component
-class ComponentMapper : DomainMapper<com.example.bycicleshop.component.model.Component, ComponentDTO> {
-    override fun toDTO(entity: com.example.bycicleshop.component.model.Component): ComponentDTO {
+class ComponentMapper : DomainMapper<com.example.bicycleshop.component.model.Component, ComponentDTO> {
+    override fun toDTO(entity: com.example.bicycleshop.component.model.Component): ComponentDTO {
         return ComponentDTO(entity.id, entity.name, entity.basePrice)
     }
 

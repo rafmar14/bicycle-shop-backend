@@ -1,7 +1,7 @@
-package com.example.bycicleshop.cart.cartcombination.model
+package com.example.bicycleshop.cart.cartcombination.model
 
-import com.example.bycicleshop.combination.model.Combination
-import com.example.bycicleshop.order.model.Order
+import com.example.bicycleshop.combination.model.Combination
+import com.example.bicycleshop.order.model.Order
 import jakarta.persistence.*
 
 @Entity

@@ -1,4 +1,4 @@
-package com.example.bycicleshop.core.exception
+package com.example.bicycleshop.core.exception
 
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

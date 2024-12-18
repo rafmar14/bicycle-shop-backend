@@ -1,6 +1,6 @@
-package com.example.bycicleshop.core.service
+package com.example.bicycleshop.core.service
 
-import com.example.bycicleshop.core.mapper.DomainMapper
+import com.example.bicycleshop.core.mapper.DomainMapper
 import org.springframework.data.repository.CrudRepository
 
 abstract class AbstractJpaService<T : Any, D : Any>(

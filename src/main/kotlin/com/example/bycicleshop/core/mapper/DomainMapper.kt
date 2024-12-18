@@ -1,4 +1,4 @@
-package com.example.bycicleshop.core.mapper
+package com.example.bicycleshop.core.mapper
 
 interface DomainMapper <T,D> {
     fun toDTO (entity: T) : D

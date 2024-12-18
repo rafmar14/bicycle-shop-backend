@@ -1,8 +1,8 @@
-package com.example.bycicleshop.product.mapper
+package com.example.bicycleshop.product.mapper
 
-import com.example.bycicleshop.core.mapper.DomainMapper
-import com.example.bycicleshop.product.model.Product
-import com.example.bycicleshop.core.dto.ProductDTO
+import com.example.bicycleshop.core.mapper.DomainMapper
+import com.example.bicycleshop.product.model.Product
+import com.example.bicycleshop.core.dto.ProductDTO
 import org.springframework.stereotype.Component
 
 @Component

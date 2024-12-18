@@ -1,7 +1,7 @@
-package com.example.bycicleshop.core.dto
+package com.example.bicycleshop.core.dto
 
-import com.example.bycicleshop.combination.model.Combination
-import com.example.bycicleshop.order.model.Order
+import com.example.bicycleshop.combination.model.Combination
+import com.example.bicycleshop.order.model.Order
 
 data class CartCombinationDTO (
     val id: Long = 0,
