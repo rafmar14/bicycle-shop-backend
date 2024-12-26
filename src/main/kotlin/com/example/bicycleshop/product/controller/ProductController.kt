@@ -6,6 +6,7 @@ import com.example.bicycleshop.product.model.Product
 import com.example.bicycleshop.product.service.ProductService
 import org.springframework.web.bind.annotation.*
 
+@CrossOrigin
 @RestController
 @RequestMapping("/products")
 class ProductController (

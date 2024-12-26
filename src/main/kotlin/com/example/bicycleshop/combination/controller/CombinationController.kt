@@ -6,6 +6,7 @@ import com.example.bicycleshop.combination.model.Combination
 import com.example.bicycleshop.combination.service.CombinationService
 import org.springframework.web.bind.annotation.*
 
+@CrossOrigin
 @RestController
 @RequestMapping("/combinations")
 class CombinationController (

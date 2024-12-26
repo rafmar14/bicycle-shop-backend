@@ -6,6 +6,7 @@ import com.example.bicycleshop.component.model.Component
 import com.example.bicycleshop.component.service.ComponentService
 import org.springframework.web.bind.annotation.*
 
+@CrossOrigin
 @RestController
 @RequestMapping("/components")
 class ComponentController (
