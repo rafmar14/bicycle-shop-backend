@@ -40,8 +40,7 @@ be described in the frontend project.
 
 ## Product Page
 On the one hand, the components and combinations set in the database will be delivered depending on the product 
-selected. Every category has a fieldType value that will indicate in the frontend which component will be displayed 
-to set the value depending on the category.
+selected.
 On the other hand, the calculation of the final cost will be the addition of every price of the components and the 
 price adjustments of 
 the combinations object that will increase or decrease of the price.
@@ -60,7 +59,5 @@ These workflows involve the CRUD operation of the objects Product, Category, Com
   administrative user that can access this part.
 - Stock manage: Implement the data model and user actions involved in the manage of the number of components 
   available in the shop, and the automated workflows of consuming and addition of components.
-- 
-- 
 - Orders view: Implement a detailed orders site which will show the order states, and could be automated the
   workflow of every order from the preparation of the products to the delivery. 
