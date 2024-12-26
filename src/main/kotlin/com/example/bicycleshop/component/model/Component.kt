@@ -15,8 +15,6 @@ class Component(
     @Column(nullable = false)
     val name: String,
 
-    @Column(nullable = false)
-    val fieldType : String,
 
     @Column(nullable = false)
     val basePrice: BigDecimal,

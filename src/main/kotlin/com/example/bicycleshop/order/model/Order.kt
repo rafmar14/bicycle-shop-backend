@@ -30,6 +30,6 @@ class Order (
         joinColumns = [JoinColumn(name = "combination_id")],
         inverseJoinColumns = [JoinColumn(name = "order_id")]
     )
-    val combinations: List<Combination>,
+    val combinations: List<Combination>
     ) {
 }

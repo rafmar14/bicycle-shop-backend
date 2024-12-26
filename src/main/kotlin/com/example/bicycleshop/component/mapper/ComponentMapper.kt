@@ -12,12 +12,12 @@ class ComponentMapper(private val categoryMapper: CategoryMapper, private val pr
     .bicycleshop
     .component.model.Component, ComponentDTO> {
     override fun toDTO(entity: com.example.bicycleshop.component.model.Component): ComponentDTO {
-        return ComponentDTO(entity.id, entity.name, entity.fieldType, entity.basePrice, categoryMapper.toDTO(entity
+        return ComponentDTO(entity.id, entity.name, entity.basePrice, categoryMapper.toDTO(entity
             .category), productMapper.toDTO(entity.product), entity.available)
     }
 
     override fun toEntity(dto: ComponentDTO): Component {
-        return Component(dto.id, dto.name, dto.fieldType, dto.basePrice, categoryMapper.toEntity(dto.category),
+        return Component(dto.id, dto.name, dto.basePrice, categoryMapper.toEntity(dto.category),
             productMapper.toEntity(dto.product), dto.available)
     }
 }
