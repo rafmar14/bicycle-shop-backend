@@ -6,7 +6,9 @@ REST API (Application Programming Interface REpresentational State Transfer) bas
 microservice implementations. In this case, as it is a growing early-stage application, it is chosen to use a 
 monolith app to simplify the configuration but with and architecture that could be migrated to microservice with 
 these technology when the complexity demands it. The programming language used is Kotlin, it's JVM (Java Virtual 
-Machine) based that has the advantages of a Java application with a modern and easier to develop language.
+Machine) based that has the advantages of a Java application with a modern and easier to develop language. It also 
+includes a AbstractTest java class that centralise a basic benchmark of the four CRUD operations to test if every 
+operation works fine.
 ## Data model
 It is a relational database, based in Postgres which allows the efficiency in memory of the system, maintain data 
 integrity and scalability, that has the 
