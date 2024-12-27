@@ -19,11 +19,11 @@ class Component(
     val basePrice: BigDecimal,
 
     @JoinColumn(name = "category_id")
-    @OneToOne
+    @ManyToOne
     val category: Category,
 
     @JoinColumn(name = "product_id")
-    @OneToOne
+    @ManyToOne
     val product: Product,
 
     @Column(nullable = false)
