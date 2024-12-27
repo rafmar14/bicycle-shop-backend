@@ -11,12 +11,12 @@ class Combination (
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0,
 
-    @PrimaryKeyJoinColumn
     @OneToOne
+    @JoinColumn(name = "compA_id")
     val compA: Component,
 
-    @PrimaryKeyJoinColumn
     @OneToOne
+    @JoinColumn(name = "compB_id")
     val compB: Component,
 
     @Column(nullable = false)

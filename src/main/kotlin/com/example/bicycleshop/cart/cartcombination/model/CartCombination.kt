@@ -11,11 +11,11 @@ class CartCombination (
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0,
 
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "order_id")
     @OneToOne
     val order: Order,
 
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "combination_id")
     @OneToOne
     val combination: Combination
 ) {

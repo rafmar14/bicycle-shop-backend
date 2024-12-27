@@ -6,8 +6,7 @@ REST API (Application Programming Interface REpresentational State Transfer) bas
 microservice implementations. In this case, as it is a growing early-stage application, it is chosen to use a 
 monolith app to simplify the configuration but with and architecture that could be migrated to microservice with 
 these technology when the complexity demands it. The programming language used is Kotlin, it's JVM (Java Virtual 
-Machine) based that has the advantages of a Java application with a modern and easier to develop language. 
-
+Machine) based that has the advantages of a Java application with a modern and easier to develop language.
 ## Data model
 It is a relational database, based in Postgres which allows the efficiency in memory of the system, maintain data 
 integrity and scalability, that has the 
@@ -21,6 +20,8 @@ structure:
 - CartComponent: Relation between a component added to an order.
 - Customer: Information fo a person which orders a product
 - Order: Relation of every configured product added to a cart and a customer willing to shop.
+
+![datamodel.png](datamodel.png)
 
 Relational databases are not recommended in high performance applications which includes complex queries and has 
 difficulties to change the structure but in this case, the shop won't need cutting edge performance, there are few 

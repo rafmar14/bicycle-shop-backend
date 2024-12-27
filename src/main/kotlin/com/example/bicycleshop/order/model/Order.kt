@@ -12,11 +12,11 @@ class Order (
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0,
 
-    @PrimaryKeyJoinColumn
     @OneToOne
+    @JoinColumn(name = "customer_id", referencedColumnName = "id")
     val customer: Customer,
 
-    @ManyToMany
+    @OneToMany
     @JoinTable(
         name = "cart_components",
         joinColumns = [JoinColumn(name = "component_id")],
@@ -24,7 +24,7 @@ class Order (
     )
     val components: List<Component>,
 
-    @ManyToMany
+    @OneToMany
     @JoinTable(
         name = "cart_combination",
         joinColumns = [JoinColumn(name = "combination_id")],

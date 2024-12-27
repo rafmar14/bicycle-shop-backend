@@ -15,15 +15,14 @@ class Component(
     @Column(nullable = false)
     val name: String,
 
-
     @Column(nullable = false)
     val basePrice: BigDecimal,
 
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "category_id")
     @OneToOne
     val category: Category,
 
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "product_id")
     @OneToOne
     val product: Product,
 
