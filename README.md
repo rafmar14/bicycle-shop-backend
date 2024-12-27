@@ -62,3 +62,8 @@ These workflows involve the CRUD operation of the objects Product, Category, Com
   available in the shop, and the automated workflows of consuming and addition of components.
 - Orders view: Implement a detailed orders site which will show the order states, and could be automated the
   workflow of every order from the preparation of the products to the delivery. 
+
+## Development server
+
+Run `mvn spring-boot:run` for a dev server. Navigate to `http://localhost:8080/`. It will serve a Swagger interface 
+that allows to interact with the API in `http://localhost:8080/swagger-ui/index.html`. 
